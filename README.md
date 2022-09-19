@@ -1,4 +1,4 @@
-# grameshbabu89-wdioBDDFramework
+# wdioBDDFramework
 e2e test framework using WDIO-BDD
 # Requirements:
 - Node version 14 or higher
