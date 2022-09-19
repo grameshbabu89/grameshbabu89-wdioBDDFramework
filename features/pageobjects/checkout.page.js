@@ -1,13 +1,7 @@
 const Page = require('./page');
 
-/**
- * sub page containing specific selectors and methods for a specific page
- */
 class CheckOutPage extends Page {
-    /**
-     * define selectors using getter methods
-     */
-
+   
     get itemResults () {
         return $$('.product-container');   
     }
@@ -36,14 +30,6 @@ class CheckOutPage extends Page {
         return $('[name="processCarrier"]');
     }
 
-
-    
-    /**
-     * overwrite specific options to adapt it to page object
-     */
-    open () {
-        return super.open('login');
-    }
 }
 
 module.exports = new CheckOutPage();

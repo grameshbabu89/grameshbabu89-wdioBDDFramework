@@ -5,7 +5,6 @@
 module.exports = class Page {
 
     open () {
-        return browser.url(`http://automationpractice.com/index.php/`)
-       
-    }
+        return browser.url(`http://automationpractice.com/index.php/`);     
+    }  
 }

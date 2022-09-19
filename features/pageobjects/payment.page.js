@@ -1,12 +1,7 @@
 const Page = require('./page');
 
-/**
- * sub page containing specific selectors and methods for a specific page
- */
 class PaymentPage extends Page {
-    /**
-     * define selectors using getter methods
-     */
+    
      get pageHeading () {
         return $('.page-heading');   
     }
@@ -25,13 +20,7 @@ class PaymentPage extends Page {
     }
     get confirmation () {
         return $('.cheque-indent');
-    }
-    /**
-     * overwrite specific options to adapt it to page object
-     */
-    open () {
-        return super.open('login');
-    }
+    } 
 }
 
 module.exports = new PaymentPage();
