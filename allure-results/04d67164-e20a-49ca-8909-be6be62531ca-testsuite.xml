@@ -1,0 +1,52 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1663514871968' stop='1663514932437'>
+    <name>New user registration</name>
+    <title>New user registration</title>
+    <test-cases>
+        <test-case start='1663514872073' status='passed' stop='1663514932437'>
+            <name>As a user, I should be able to register as a new customer</name>
+            <title>As a user, I should be able to register as a new customer</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps>
+                <step start='1663514872075' status='passed' stop='1663514888491'>
+                    <name>Given I am on the login page</name>
+                    <title>Given I am on the login page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1663514888491' status='passed' stop='1663514895429'>
+                    <name>When I enter wdiotesting1@test.com address to be registerd</name>
+                    <title>When I enter wdiotesting1@test.com address to be registerd</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1663514895429' status='passed' stop='1663514907983'>
+                    <name>When I enter David , Sachin , Testing and other mandatory fields then submit</name>
+                    <title>When I enter David , Sachin , Testing and other mandatory fields then submit</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1663514907983' status='passed' stop='1663514908055'>
+                    <name>Then I validate the David and Sachin is displayed in the account section</name>
+                    <title>Then I validate the David and Sachin is displayed in the account section</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1663514908055' status='passed' stop='1663514932435'>
+                    <name>Then I logout the application</name>
+                    <title>Then I logout the application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

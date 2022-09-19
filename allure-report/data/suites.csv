@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Sep 18 17:45:39 IST 2022","Sun Sep 18 17:46:47 IST 2022","67952","","e2e test scenarios on an e-commerce website","","e2e test scenarios on an e-commerce website","As a registered user, I should be able to place an order.","As a registered user, I should be able to place an order.",""

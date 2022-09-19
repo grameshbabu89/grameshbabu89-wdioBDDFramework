@@ -1,0 +1,76 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1663503339344' stop='1663503407329'>
+    <name>e2e test scenarios on an e-commerce website</name>
+    <title>e2e test scenarios on an e-commerce website</title>
+    <test-cases>
+        <test-case start='1663503339377' status='passed' stop='1663503407329'>
+            <name>As a registered user, I should be able to place an order.</name>
+            <title>As a registered user, I should be able to place an order.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-101.0.4951.54'/>
+            </parameters>
+            <steps>
+                <step start='1663503339380' status='passed' stop='1663503348885'>
+                    <name>Given I am on the login page</name>
+                    <title>Given I am on the login page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1663503348886' status='passed' stop='1663503352382'>
+                    <name>When I login with wdiotest7@test.com and Testing</name>
+                    <title>When I login with wdiotest7@test.com and Testing</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1663503352382' status='passed' stop='1663503352428'>
+                    <name>Then I validate the David and Sachin is displayed in the account section</name>
+                    <title>Then I validate the David and Sachin is displayed in the account section</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1663503352428' status='passed' stop='1663503357835'>
+                    <name>When I search dress in the search box</name>
+                    <title>When I search dress in the search box</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1663503357836' status='passed' stop='1663503363463'>
+                    <name>Then I add Printed Dress to the cart</name>
+                    <title>Then I add Printed Dress to the cart</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1663503363463' status='passed' stop='1663503386821'>
+                    <name>Then I proceed to checkout</name>
+                    <title>Then I proceed to checkout</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1663503386821' status='passed' stop='1663503391866'>
+                    <name>Then I verify the Printed Dress in the payment page</name>
+                    <title>Then I verify the Printed Dress in the payment page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1663503391867' status='passed' stop='1663503402511'>
+                    <name>Then I make payment</name>
+                    <title>Then I make payment</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1663503402511' status='passed' stop='1663503407327'>
+                    <name>Then I logout the application</name>
+                    <title>Then I logout the application</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
