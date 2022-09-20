@@ -9,6 +9,9 @@ class ProductSearchPage extends Page {
      get searchBtn () {
         return $('button[name ="submit_search"]');
     }
+    get accountlnk () {
+        return $('button[name ="submit_search"]');
+    }
     
 }
 

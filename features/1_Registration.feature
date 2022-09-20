@@ -11,5 +11,5 @@ Feature: New user registration
     Then I close the browser
 
     Examples:
-      | email                   | firstname | lastname | password |
-      | wdiotesting123@test.com | David     | Sachin   | Testing  |
+      | email                | firstname | lastname | password |
+      | wdiotesting@test.com | David     | Sachin   | Testing  |

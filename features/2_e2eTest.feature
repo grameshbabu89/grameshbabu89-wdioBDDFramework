@@ -1,5 +1,5 @@
 Feature: e2e test scenarios on an e-commerce website
-  # Check the username is already registered
+  # Check if the username is already registered
   Scenario Outline: As a registered user, I should be able to place an order.
 
     Given I launch the application
@@ -15,6 +15,6 @@ Feature: e2e test scenarios on an e-commerce website
     Then I close the browser
 
     Examples:
-      | username          | password | firstname | lastname | searchItem | item          |
-      | wdiotest@test.com | Testing  | David     | Sachin   | dress      | Printed Dress |
+      | username             | password | firstname | lastname | searchItem | item          |
+      | wdiotesting@test.com | Testing  | David     | Sachin   | dress      | Printed Dress |
 

@@ -47,8 +47,8 @@ class RegistrationPage extends Page {
         await this.enterFirstName.setValue(firstname);
         await this.enterLastName.setValue(lastname);
         await this.enterPassword.setValue(password);
-        await this.address_enterFirstName.setValue('Ramesh');
-        await this.address_enterLastName.setValue('Babu');
+        await this.address_enterFirstName.setValue(firstname);
+        await this.address_enterLastName.setValue(lastname);
         await this.enterFullAddress.setValue('Laporte Avenue, United States');
         await this.enterCity.setValue('Valparaiso');
         await this.selectState.selectByVisibleText('Indiana');

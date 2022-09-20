@@ -14,6 +14,9 @@ class CheckOutPage extends Page {
     get addtocart () {
         return $('#add_to_cart button');    
     }
+    get continueShopping () {
+        return $('span[title="Continue shopping"]');
+    }
      get proceedToCheckout () {
         return $('a[title="Proceed to checkout"]');
     }
