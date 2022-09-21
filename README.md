@@ -4,7 +4,7 @@ e2e test framework using WDIO-BDD
 - Node version 14 or higher
 - Visual code studio
 # Quick start
-Download the latest stable release here or clone the git repo — git clone https://github.com/grameshbabu89/grameshbabu89-wdioBDDFramework.git
+Download the latest stable release here or clone the git repo — git clone https://github.com/grameshbabu89/wdioBDDFramework.git
 
 Then, Install the dependencies 
     
@@ -22,6 +22,8 @@ Tests are written in Gherkin syntax that means that you write down what's suppos
 All test files are located in ./features/* and have the file ending .feature. 
 
 You will already find some test files in that directory. They should demonstrate, how tests could look like. Just create a new file and write your first test.
+
+Sample site : http://automationpractice.com/index.php
 
 1_Registration.feature
 
